@@ -1,0 +1,11 @@
+# ビルドで作られるもの（アプリは GitHub の Releases で配布する）
+画像一覧PDF.app/
+*.zip
+ImageSheetPDF/.build/
+ImageSheetPDF/.swiftpm/
+
+# macOS
+.DS_Store
+
+# アプリのウインドウを写した画像（公開しない）
+動作確認/画面/
